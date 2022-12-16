@@ -1,16 +1,13 @@
 {
   "files": {
     "main.css": "/nutrifacts/static/css/main.073c9b0a.css",
-    "main.js": "/nutrifacts/static/js/main.53d4bc2f.js",
-    "static/js/787.e81c347e.chunk.js": "/nutrifacts/static/js/787.e81c347e.chunk.js",
-    "static/media/logo.svg": "/nutrifacts/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/nutrifacts/static/js/main.edc8e8c9.js",
     "index.html": "/nutrifacts/index.html",
     "main.073c9b0a.css.map": "/nutrifacts/static/css/main.073c9b0a.css.map",
-    "main.53d4bc2f.js.map": "/nutrifacts/static/js/main.53d4bc2f.js.map",
-    "787.e81c347e.chunk.js.map": "/nutrifacts/static/js/787.e81c347e.chunk.js.map"
+    "main.edc8e8c9.js.map": "/nutrifacts/static/js/main.edc8e8c9.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.53d4bc2f.js"
+    "static/js/main.edc8e8c9.js"
   ]
 }
