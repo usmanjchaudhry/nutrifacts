@@ -3,6 +3,7 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 import Navbar from './routes/navbar/navbar'
 import Landing from "./routes/landing/landing";
 import Search from './routes/search/search';
+import MealPlanner from "./routes/mealPlanner/mealPlanner"
 
 export default function App() {
   return (
@@ -19,6 +20,8 @@ export default function App() {
           <Route index element={<Landing/>} />
           <Route path="home" element={<Home />} />
           <Route path="search" element={<Search />} />
+          <Route path="mealPlanner" element={<MealPlanner />} />
+
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="*" element={<NoMatch />} />
         </Route>

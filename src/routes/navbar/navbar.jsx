@@ -48,7 +48,7 @@ const Navbar = () => {
 <header class="header" id="header">
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
             <div class="nav container ">
-                <a href="/landing" class="nav__logo">Nutrifacts</a>
+                <a href="/" class="nav__logo">Nutrifacts</a>
 
                 <div class="nav__menu show-menu" id="nav-menu">
                     <ul class="nav__list grid">
@@ -59,7 +59,7 @@ const Navbar = () => {
 
                         </li>
                         <li class="nav__item">
-                            <NavLink to="/home" className="nav__link" activeClassName="active-link">
+                            <NavLink to="/mealPlanner" className="nav__link" activeClassName="active-link">
                                 <i class="uil uil-calendar-alt nav__icon"></i> Meal Planner
                             </NavLink>
                             
