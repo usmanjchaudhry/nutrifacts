@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import Navbar from './routes/navbar/navbar'
+import Landing from "./routes/landing/landing";
+import Search from './routes/search/search';
 
 export default function App() {
   return (
@@ -14,8 +16,9 @@ export default function App() {
             parent route elements. See the note about <Outlet> below. */}
       <Routes>
         <Route path="/" element={<Navbar />}>
-          <Route index element={<Home/>} />
+          <Route index element={<Landing/>} />
           <Route path="home" element={<Home />} />
+          <Route path="search" element={<Search />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="*" element={<NoMatch />} />
         </Route>

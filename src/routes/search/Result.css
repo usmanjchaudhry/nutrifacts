@@ -1,0 +1,10 @@
+.dish{
+    max-width: 400px;
+}
+
+.recipe_link{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
