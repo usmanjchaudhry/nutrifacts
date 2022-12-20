@@ -24,9 +24,7 @@ export default function App() {
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
-      <h1>WHY ISNT ANYTHING SHOWIN UP</h1>
 
-      <Footer/>
     </div>
   );
 }

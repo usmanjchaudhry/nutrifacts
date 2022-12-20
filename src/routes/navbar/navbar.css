@@ -281,7 +281,7 @@ gap: 2rem;
 }
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px){
+@media screen and (max-width: 420px){
     .container{
         margin-left: var(--mb-3);
         margin-right: var(--mb-1);
@@ -294,6 +294,7 @@ gap: 2rem;
     }
     .nav__logo{
         margin-left: 10px;
+        visibility: hidden;
     }
     .nav__toggle{
         margin-right: 10px;

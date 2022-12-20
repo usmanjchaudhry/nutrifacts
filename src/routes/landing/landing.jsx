@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, FormControl, Button} from 'react-bootstrap'
+import Footer from "../Footer/footer";
+import { Outlet, NavLink } from "react-router-dom";
+import Vegetable from "../../img/vegetables.png"
 
 // This will require to npm install axios
 import './landing.css'
@@ -12,7 +15,9 @@ export default class landing extends Component {
 
     render() {
         return (
+            
             <body>
+
             <section class="home" id="home">
             <div class="home__container bd-container bd-grid">
                 <div class="home__data">
@@ -23,14 +28,14 @@ export default class landing extends Component {
 
       
           
-          <Button variant="outline-success" href="/search">Search Recipes </Button>
+          <Button variant="outline-success" NavLink to="/search">Search Recipes </Button>
         </Form>
                 </div>
 
                
 
        
-                <img src="img/vegetables.png" alt="" class="home__img"/>
+                <img src= {Vegetable} alt="" class="home__img"/>
 
             </div>
         </section>
@@ -38,9 +43,8 @@ export default class landing extends Component {
 
 
 
-      
-    </body>
 
+    </body>
 
 
 
