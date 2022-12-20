@@ -1,0 +1,33 @@
+
+.main-footer{
+    color: white;
+    background-color: #069C54 ;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+a { 
+    color: black;
+    padding: 0em;
+    width:auto;
+    margin-top: auto;
+}
+
+a:hover{
+    color:var(--first-color)
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .main-footer{
+        padding-top: 5em;
+        padding-bottom: 9em;
+    }
+
+}

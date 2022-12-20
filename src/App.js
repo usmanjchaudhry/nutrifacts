@@ -4,13 +4,11 @@ import Navbar from './routes/navbar/navbar'
 import Landing from "./routes/landing/landing";
 import Search from './routes/search/search';
 import MealPlanner from "./routes/mealPlanner/mealPlanner"
+import Footer from "./routes/Footer/footer"
 
 export default function App() {
   return (
     <div>
-      <h1>Basic Example</h1>
-
-    
 
       {/* Routes nest inside one another. Nested route paths build upon
             parent route paths, and nested route elements render inside
@@ -20,12 +18,15 @@ export default function App() {
           <Route index element={<Landing/>} />
           <Route path="home" element={<Home />} />
           <Route path="search" element={<Search />} />
+          <Route path="search" element={<Search />} />
           <Route path="mealPlanner" element={<MealPlanner />} />
-
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
+      <h1>WHY ISNT ANYTHING SHOWIN UP</h1>
+
+      <Footer/>
     </div>
   );
 }
