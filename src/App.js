@@ -24,7 +24,7 @@ export default function App() {
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
-
+            <h1>This is FOoter</h1>
     </div>
   );
 }
