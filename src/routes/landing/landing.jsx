@@ -43,7 +43,6 @@ export default class landing extends Component {
 
 
 
-
     </body>
 
 

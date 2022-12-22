@@ -1,3 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+.home{
+    
+    background-image: "";
+    
+   
+      /*========== Colors ==========*/
+      --first-color: #069C54;
+      --first-color-alt: #048654;
+      --title-color: #393939;
+      --text-color: #707070;
+      --text-color-light: #A6A6A6;
+      --body-color: #FBFEFD;
+      --container-color: #FFFFFF;
+    
+      /*========== Font and typography ==========*/
+      --body-font: 'Poppins', sans-serif;
+      --biggest-font-size: 4rem;
+      --h1-font-size: 1.5rem;
+      --h2-font-size: 1.25rem;
+      --h3-font-size: 1rem;
+      --normal-font-size: .938rem;
+      --small-font-size: .813rem;
+      --smaller-font-size: .75rem;
+    
+      /*========== Font weight ==========*/
+      --font-medium: 500;
+      --font-semi-bold: 600;
+    
+      /*========== Margenes ==========*/
+      --mb-1: .5rem;
+      --mb-2: 1rem;
+      --mb-3: 1.5rem;
+      --mb-4: 2rem;
+      --mb-5: 2.5rem;
+      --mb-6: 3rem;
+    
+      /*========== z index ==========*/
+      --z-tooltip: 10;
+      --z-fixed: 100;
+    }
+
 .nav{
     max-width: 968px;
     height: var(--header-height);
@@ -13,6 +58,7 @@ padding-left: 0px;
 .nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
+    font-size: 3rem;
 }
 
 .nav__logo:hover{
@@ -31,6 +77,9 @@ padding-left: 0px;
 }
 
 @media screen and (max-width: 767px){
+    .nav__logo{
+        visibility: hidden;
+    }
     .nav__menu{
         position:fixed;
         bottom: -100%;
@@ -48,6 +97,7 @@ padding-left: 0px;
 .nav__list{
 grid-template-columns: repeat(3, 1fr);
 gap: 2rem;
+DISPLAY: grid;
 
 }
 
@@ -58,6 +108,7 @@ gap: 2rem;
     font-size: var(--small-font-size);
     color:var(--title-color);
     font-weight: var(--font-medium);
+    font-size: 1.02rem;
 }
 
 .nav__link:hover{
