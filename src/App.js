@@ -14,7 +14,7 @@ export default function App() {
             parent route paths, and nested route elements render inside
             parent route elements. See the note about <Outlet> below. */}
       <Routes>
-        <Route path="/" element={<Navbar />}>
+          <Route path="/" element={<Navbar />}>
           <Route index element={<Landing/>} />
           <Route path="home" element={<Home />} />
           <Route path="search" element={<Search />} />
@@ -24,7 +24,6 @@ export default function App() {
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
-      <Footer/>
 
     </div>
   );

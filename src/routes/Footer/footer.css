@@ -7,7 +7,6 @@
     background-color: #069C54 ;
     padding-top: 0em;
     padding-bottom: 0.5em;
-    position: relative;
     bottom: 0;
     width: 100%;
     font:  'Poppins', sans-serif;
@@ -31,8 +30,8 @@ a:hover{
 
 @media screen and (max-width: 768px){
     .main-footer{
-        padding-top: 5em;
-        padding-bottom: 9em;
+        padding-top: 4em;
+        padding-bottom: 4em;
       
             font-family: var(--body-font);
            

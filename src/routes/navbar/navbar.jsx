@@ -44,7 +44,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 // Here, we display our Navbar
 const Navbar = () => {
   return (
-    <section class="home" id="home">
+<section class="home" id="home">
 <header class="header" id="header">
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
             <div class="nav container ">

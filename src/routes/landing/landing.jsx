@@ -27,7 +27,7 @@ export default class landing extends Component {
 
 
       
-                <  NavLink to="/search">
+                <NavLink to="/search">
           <Button variant="outline-success" >Search Recipes </Button>
           </NavLink>
         </Form>
@@ -39,10 +39,12 @@ export default class landing extends Component {
                 <img src= {Vegetable} alt="" class="home__img"/>
 
             </div>
+
         </section>
 
 
 
+        <Footer/>
 
     </body>
 

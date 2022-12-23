@@ -8,7 +8,26 @@
     background-color:lightgreen
     
   }
+.mealPlanner__title{
+  text-align: center;
+      font-size: var(--biggest-font-size);
+      color: var(--first-color);
+      margin-bottom: 0.5em;
+      padding-right: 0px;
+}
 
+.subtitle__meal{
+  margin-left: 5%;
+}
+
+
+.imgPrep{
+  align-items: center;
+}
+.mealPrepWords{
+  align-items: center;
+
+}
   .input{
     margin-top: 0.5em;
   }
@@ -34,11 +53,12 @@
   }
   
   .mealPlan__img{
-  width: 962px;
- height: 278px;
+   width: 962px;
+   height: 278px;
     top: 0;
     left: 0;
-    
+    margin-left: 10%;
+
   }
   .controls{
     top: 0;
@@ -63,3 +83,38 @@
   .oneWord{
   text-emphasis-color: blue;
   }
+
+  @media only screen and (min-width: 1500px) {
+.mealPlan__img{
+  margin-left: 16%;
+}
+
+.mealPrepWords {
+  margin-left: 20%;
+}
+
+  }
+
+
+
+  @media only screen and (min-width: 1750px) {
+    .mealPlan__img{
+      margin-left: 20%;
+    }
+    .mealPrepWords {
+      margin-left: 24%;
+    }
+    
+}
+
+
+  @media only screen and (min-width: 2000px) {
+    .mealPlan__img{
+      margin-left: 25%;
+    }
+    .mealPrepWords {
+      margin-left: 29%;
+  }
+
+      }
+    

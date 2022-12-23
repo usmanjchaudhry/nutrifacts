@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 // This will require to npm install axios
 import './mealPlanner.css'
 import MealList from "./MealList";
+import MealPrepFood from "../../img/MealPrepFixed.png"
 
 
 
@@ -33,10 +34,16 @@ function Mealplanner() {
     return (
 <div className="App">
   <section className="controls">
-  <h1 class="home__title">Want Better Meals?</h1>
-  <img src="img/MealPrepFixed.png" alt="" class="mealPlan__img"/>
+  <h1 class="mealPlanner__title">Want Better Meals?</h1>
+  <div className="imgPrep">
+  <img src={MealPrepFood} alt="" class="mealPlan__img"/>
+  </div>
+  <div className="mealPrepWords">
+
     <h1>Plan out your day with a daily meal plan</h1>
-  <h4>For more information about daily caloric intake click <u className="oneWord"> <a href = 'https://www.fda.gov/media/112972/download'>here</a></u></h4>
+  <h4 className="subtitle__meal">For more information about daily caloric intake click <u className="oneWord"> <a href = 'https://www.fda.gov/media/112972/download'>here</a></u></h4>
+  </div>
+
     <input
       class="mealplannerInput"
       type="number"
