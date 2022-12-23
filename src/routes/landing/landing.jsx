@@ -27,8 +27,9 @@ export default class landing extends Component {
 
 
       
-          
-          <Button variant="outline-success" NavLink to="/search">Search Recipes </Button>
+                <  NavLink to="/search">
+          <Button variant="outline-success" >Search Recipes </Button>
+          </NavLink>
         </Form>
                 </div>
 

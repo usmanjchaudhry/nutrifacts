@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
 
 .main-footer{
     color: white;
     background-color: #069C54 ;
-    padding-top: 2em;
+    padding-top: 0em;
     padding-bottom: 0.5em;
     position: relative;
     bottom: 0;
     width: 100%;
+    font:  'Poppins', sans-serif;
 }
 
 a { 
@@ -18,6 +22,7 @@ a {
 
 a:hover{
     color:var(--first-color)
+    
 }
 
 .footer-bottom {
@@ -28,6 +33,9 @@ a:hover{
     .main-footer{
         padding-top: 5em;
         padding-bottom: 9em;
+      
+            font-family: var(--body-font);
+           
     }
 
 }
