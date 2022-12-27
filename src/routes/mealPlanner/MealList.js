@@ -11,7 +11,7 @@ export default function MealList({ mealData }) {
   return (
     <main>
       <section className="nutrients">
-        <h1>Macros</h1>
+        <h1 className="macros">Macros</h1>
         <ul>
           <li class="nutrition">Calories: {nutrients.calories.toFixed(0)}</li>
           <li class="nutrition">Carbohydrates: {nutrients.carbohydrates.toFixed(0)}g</li>

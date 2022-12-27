@@ -43,7 +43,7 @@ function Mealplanner() {
     <h1>Plan out your day with a daily meal plan</h1>
   <h4 className="subtitle__meal">For more information about daily caloric intake click <u className="oneWord"> <a href = 'https://www.fda.gov/media/112972/download'>here</a></u></h4>
   </div>
-
+<div className="mealPrepInput">
     <input
       class="mealplannerInput"
       type="number"
@@ -51,6 +51,7 @@ function Mealplanner() {
       onChange={handleChange}
     />
     <button onClick={getMealData} class="input">Get Daily Meal Plan</button>
+    </div>
    
   </section>
   {mealData && <MealList mealData={mealData} />}

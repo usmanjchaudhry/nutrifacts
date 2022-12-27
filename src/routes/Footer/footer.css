@@ -3,8 +3,8 @@
 
 
 .main-footer{
-    color: white;
-    background-color: #069C54 ;
+    color: #069C54;
+    background-color: white ;
     padding-top: 0em;
     padding-bottom: 0.5em;
     bottom: 0;
@@ -32,8 +32,7 @@ a:hover{
     .main-footer{
         padding-top: 4em;
         padding-bottom: 4em;
-      
-            font-family: var(--body-font);
+        font-family: var(--body-font);
            
     }
 

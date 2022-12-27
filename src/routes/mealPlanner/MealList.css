@@ -1,8 +1,18 @@
 .nutrients{
     padding-bottom: 1em;
     padding-top: 1em;
+    align-items: center;
+    margin-left: 10%;
+   
+    
 }
 
 .nutrition{
     padding: 1em;
+   
+    display: inline;
+}
+
+.macros{
+    margin-left: 35%;
 }

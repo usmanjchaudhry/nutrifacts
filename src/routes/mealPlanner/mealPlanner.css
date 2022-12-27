@@ -23,10 +23,15 @@
 
 .imgPrep{
   align-items: center;
+  margin-left: 3%;
 }
 .mealPrepWords{
   align-items: center;
+  margin-left: 18%;
 
+}
+.mealPrepInput{
+  margin-left: 21.5%;
 }
   .input{
     margin-top: 0.5em;
@@ -118,3 +123,11 @@
 
       }
     
+
+      @media only screen and (max-width: 540px) {
+        .mealPlan__img{
+visibility: hidden;      
+
+}
+    
+          }
