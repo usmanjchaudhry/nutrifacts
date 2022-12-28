@@ -34,11 +34,16 @@ function Search() {
         
 
         <div class = "search-wrapper">
+          <div className="searchRecipe">
         <h1 class = "wordSearch">Find a Recipe</h1>
+        </div>
+       <div className="searchBar">
         <input class="inputSearch" type ="text" id="searchField" placeholder ="" onChange = {handleChange}/>
         <button class="buttonSearch" onClick = {getRecipeData}>
+          
         <i class="uil uil-search"></i>
         </button>
+        </div>
         </div>
         </div>
         
