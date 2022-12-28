@@ -31,7 +31,6 @@ function Search() {
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
         
         <div class = "wrapper">
-        <img src="img/Capture.png" alt="" class="searchPage__img"/>
         
 
         <div class = "search-wrapper">
