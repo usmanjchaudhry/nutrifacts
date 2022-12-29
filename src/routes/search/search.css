@@ -12,8 +12,8 @@
     margin-bottom: 2%;
   }
   .wordSearch{
-    color: black;
-    font-size: 55px;
+    color:var(--first-color);
+    font-size: 65px;
     
   }
   .searchPage__img{
@@ -34,4 +34,43 @@
   .searchBar{
     display: flex;
     margin-left: 32%; 
+   }
+
+
+
+   @media only screen and (min-width: 2001px) {
+    .searchRecipe{
+      margin-left: 37%;
+    }
+    .searchBar{
+      margin-left: 36%;
+    }
+   }
+
+   @media only screen and (max-width: 2000px) {
+    .searchRecipe{
+      margin-left: 37%;
+    }
+    .searchBar{
+      margin-left: 36%;
+    }
+   }
+
+
+   @media only screen and (max-width: 1500px) {
+    .searchRecipe{
+      margin-left: 32%;
+    }
+    .searchBar{
+      margin-left: 31%;
+    }
+   }
+
+   @media only screen and (max-width: 1250px) {
+    .searchRecipe{
+      margin-left: 30%;
+    }
+    .searchBar{
+      margin-left: 29%;
+    }
    }
