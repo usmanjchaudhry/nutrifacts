@@ -1,7 +1,8 @@
 .dish{
-    max-width: 500px;
-    border: 1px solid;
-    padding: 20px;
+    max-width: 600px;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .recipe_link{
@@ -9,4 +10,8 @@
     margin-right: auto;
     font-weight: bold;
     font-size: 20px;
+}
+.searchImg{
+    border: solid 1px green;
+    border-radius: 10px;
 }

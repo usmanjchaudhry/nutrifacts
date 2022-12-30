@@ -16,3 +16,10 @@
 .macros{
     margin-left: 35%;
 }
+
+
+@media only screen and (min-width: 1500px) {   
+  .nutrients{
+    margin-left: 15%;
+  }
+   }

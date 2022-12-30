@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import "./search.css"
 import $ from 'jquery'
 import RecipeList from "./RecipeList"
+import Footer from "../Footer/footer"
 
 function Search() {
 
@@ -49,6 +50,8 @@ function Search() {
         
         <div id = "output"></div>
         {recipeData && <RecipeList recipeData = {recipeData} />}
+        <Footer/>
+
         </div>
 );
 }

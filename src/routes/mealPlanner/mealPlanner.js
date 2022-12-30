@@ -3,7 +3,7 @@ import React, { Component, useState } from "react";
 import './mealPlanner.css'
 import MealList from "./MealList";
 import MealPrepFood from "../../img/MealPrepFixed.png"
-
+import Footer from "../Footer/footer"
 
 
 function Mealplanner() {
@@ -55,6 +55,9 @@ function Mealplanner() {
    
   </section>
   {mealData && <MealList mealData={mealData} />}
+
+  <Footer/>
+
 </div>
 
 

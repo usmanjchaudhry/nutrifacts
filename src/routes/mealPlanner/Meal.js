@@ -20,7 +20,7 @@ export default function Meal({ meal }) {
 
   return (
     <article className="output">
-      <img src={imageUrl} alt="recipe" />
+      <img className="mealPlanImg" src={imageUrl} alt="recipe" />
       <div className="bodyOfOutput">
       <h1>{meal.title}</h1>
       <ul className="instructions">

@@ -21,7 +21,7 @@ export default function Meal({ result }) {
 return(
   <article class="dish">
       <h1>{result.title}</h1>
-      <img src={imageUrl} alt="recipe" />
+      <img className="searchImg" src={imageUrl} alt="recipe" />
       <ul className="instructions">
         <li>Preparation time: {result.readyInMinutes} minutes</li>
         <li>Number of servings: {result.servings}</li>

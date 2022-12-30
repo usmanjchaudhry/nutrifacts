@@ -20,7 +20,20 @@ a{
 .instructions{
 }
 .recipe_link{
+    padding: 5px;
+    border: solid 1px green;
+    color: green;
+    border-radius: 10px;
 }
-.servings{
-    margin-left: 5%;
+.recipe_link:hover{
+    background-color: green;
+    color: white;
+}
+.mealPlanImg{
+    border: solid 1px;
+    color:green;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: -2%;
 }
